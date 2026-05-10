@@ -125,7 +125,7 @@ const countryLabelType = parseEnumArg(inArg.countryLabelType, ["zh", "en", "code
       
 // ==================== 数据表 ====================
 const INVALID_LABELS = [
-  "(?:套餐|到期|过期|已用|剩余|有效|版本|失联|官方|网址|网站|官址|备用|群|客服|获取|订阅|流量|下次|联系|邮箱|工单)",
+  "(?:套餐|到期|过期|已用|剩余|有效|版本|失联|官方|网址|网站|官址|备用|群|客服|获取|订阅|流量|下次|联系|邮箱|工单|拉取)",
   "(?:plan|expire|used|total|left|valid|official|website|backup|group|support|subscription|traffic|next|contact|email|ticket)"
 ];
 
