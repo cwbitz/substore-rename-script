@@ -759,5 +759,5 @@ function operator(nodes) {
     else delete node["block-quic"];
   });
 
-  return sortedNodes;
+  return sortedNodes.concat(resultNodes);
 }
