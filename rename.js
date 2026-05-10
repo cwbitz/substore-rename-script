@@ -131,7 +131,7 @@ const INVALID_LABELS = [
 
 const COUNTRY_LABELS = [
   { en: "Hong Kong", zh: "香港", code: "HK", flag: "🇭🇰", alias: ["(?:Hong\\s*Kong|HK|🇭🇰)", "(?:香港|(?:深|(?:沪|滬)|呼|京|(?:广|廣)|杭)港)"] },
-  { en: "United States", zh: "美国", code: "US", flag: "🇺🇸", alias: ["(?:United\\s*States|USA|US|🇺🇸|Los\\s*Angeles|LA|San\\s*Jose|Silicon\\s*Valley|Seattle|San\\s*Francisco|Dallas|Chicago|New\\s*York|Ashburn|Phoenix|Atlanta)", "(?:美国|美國|(?:深|(?:沪|滬)|呼|京|(?:广|廣)|杭)美|洛杉矶|洛杉磯|圣何塞|聖荷西|硅谷|矽谷|西雅图|西雅圖|旧金山|舊金山|三藩(?:市)?|达拉斯|達拉斯|芝加哥|纽约|紐約|阿什本|凤凰城|鳳凰城|亚特兰大|亞特蘭大)"] },
+  { en: "United States", zh: "美国", code: "US", flag: "🇺🇸", alias: ["(?:United\\s*States|USA|America|US|🇺🇸|Los\\s*Angeles|LA|San\\s*Jose|Silicon\\s*Valley|Seattle|San\\s*Francisco|Dallas|Chicago|New\\s*York|Ashburn|Phoenix|Atlanta)", "(?:美国|美國|(?:深|(?:沪|滬)|呼|京|(?:广|廣)|杭)美|洛杉矶|洛杉磯|圣何塞|聖荷西|硅谷|矽谷|西雅图|西雅圖|旧金山|舊金山|三藩(?:市)?|达拉斯|達拉斯|芝加哥|纽约|紐約|阿什本|凤凰城|鳳凰城|亚特兰大|亞特蘭大)"] },
   { en: "Taiwan", zh: "台湾", code: "TW", flag: "🇹🇼", alias: ["(?:Tai\\s*wan|TW|🇹🇼|(?:New\\s*)?Tai\\s*pei|Tao\\s*yuan|Hsin\\s*chu|Tai\\s*chung|Tai\\s*nan|Kao\\s*hsiung)", "(?:台湾|臺灣|台北|臺北|新北|桃园|桃園|新竹|台中|臺中|台南|臺南|高雄)"] },
   { en: "Japan", zh: "日本", code: "JP", flag: "🇯🇵", alias: ["(?:Japan|JP|🇯🇵|Tokyo|Osaka|Nagoya|Fukuoka|Sapporo)", "(?:日本|(?:深|(?:沪|滬)|呼|京|(?:广|廣)|杭|中|(?:辽|遼))日|东京|東京|大坂|名古屋|福冈|福岡|札幌)"] },
   { en: "South Korea", zh: "韩国", code: "KR", flag: "🇰🇷", alias: ["(?:South\\s*Korea|KR|🇰🇷|ROK|Seoul|Busan|Incheon|Inchon|Chuncheon|Daejeon|Gwangju|Daegu)", "(?:韩国|韓國|首尔|首爾|漢城|釜山|仁川|春川|大田|光州|大邱)"] },
