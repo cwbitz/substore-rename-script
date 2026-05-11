@@ -26,7 +26,7 @@
   addLineLabel <bool>        | true|1|on|yes（添加）                                         |
                              | false|0|off|no（不添加<默认>）                                | 添加线路标签（lineLabel），如 [家宽, IPLC, IEPL] 等
   customLabel <string>       | 关键词1+关键词2...                                            |
-                             | 支持“关键词>新名字”重命名                                      | 自定义标签的添加与重命名，符号"|"分隔多个关键词，区分大小写。例：[customLabel=流媒体|金融|VLESS+WS+REALITY] 添加包含关键词节点，或 [customLabel=流媒体>Streaming|VLESS+WS+REALITY>Vless] 可重命名
+                             | 支持“关键词>新名字”重命名                                      | 自定义标签的添加与重命名，符号"|"分隔多个关键词，区分大小写。例：[customLabel=流媒体|金融|VLESS+REALITY] 添加包含关键词节点，或 [customLabel=流媒体>Streaming|VLESS+REALITY>Vless] 可重命名
   filterInvalid <bool>       | true|1|on|yes（过滤<默认>）                                   |
                              | false|0|off|no（不过滤）                                      | 过滤无效节点，包含“套餐|到期|有效|剩余|版本|已用|过期|失联|官方|网址|备用|群|客服|网站|获取|订阅|流量|机场|下次|官址|联系|邮箱|工单|学术|USE|USED|TOTAL|EXPIRE|EMAIL”等关键词
   filterUnmatched <bool>     | true|1|on|yes（过滤）                                         |
@@ -58,16 +58,16 @@
 // "AnyTLS"：自定义标签（customLabel）
 // "[]"：属性标签分隔符（attrLabelSep）
 
-示例二：🇺🇸 United States#1 <3×|IPLC|VLESS+WS+REALITY> | SomeVPS
+示例二：🇺🇸 United States#1 <3×|IPLC|VLESS+REALITY> | SomeVPS
 // "🇺🇸"：国旗标签（flagLabel）
 // "United States"：国家标签（countryLabel）
 // "1"：序号标签（indexLabel）
 // "#"：序号标签分隔符（indexLabelSep）
-// "3×|IPLC|VLESS+WS+REALITY"：整体称为属性标签（attrLabel）
+// "3×|IPLC|VLESS+REALITY"：整体称为属性标签（attrLabel）
 // "|"：属性标签元素分隔符（attrItemSep）
 // "3×"：倍率标签（rateLabel）
 // "IPLC"：线路标签（lineLabel）
-// "VLESS+WS+REALITY"：自定义标签（customLabel）
+// "VLESS+REALITY"：自定义标签（customLabel）
 // "<>"：属性标签分隔符（attrLabelSep）
 // "SomeVPS"：服务提供商标签（providerLabel）
 // "|"：服务提供商标签分隔符（providerLabelSep）
